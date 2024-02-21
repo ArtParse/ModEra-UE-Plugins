@@ -1,0 +1,73 @@
+# Unreal Engine .gitignore
+
+# Игнорирование папок Binaries и Intermediate в корне проекта и всех подпапках
+Binaries/
+Intermediate/
+
+# Игнорирование конфигурационных файлов Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.user
+*.userprefs
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+ipch/
+obj/
+[Bb]in/
+[Dd]ebug*/ 
+[Rr]elease*/
+x64/
+x86/
+build/
+[Bb]uilds/
+[Tt]emp/
+
+# Игнорирование исполняемых и других бинарных файлов
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.pdb
+*.lib
+
+# Игнорирование временных файлов и папок
+Temp/
+Saved/
+
+# Игнорирование файлов сгенерированных Xcode
+DerivedData/
+*.xcworkspace
+*.swp
+*.xcuserstate
+
+# Игнорирование специфичных для Mac файлов
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Игнорирование специфичных для Thumbnail файлов Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Игнорирование файлов сессии Vim
+*.swp
+*~
+
+
+#python source
+*.py

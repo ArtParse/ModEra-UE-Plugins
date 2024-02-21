@@ -1,0 +1,1 @@
+textureatlas.exe "C:/UE/Projects/ConstructorAppAssets/Tile2.jpg" "C:/UE/Projects/ConstructorAppAssets/Tile3.jpg" "C:/UE/Projects/ConstructorAppAssets/Tile4.jpg" "C:/UE/Projects/ConstructorAppAssets/Tile5.jpg" -o "C:/UE/Projects/constructorapp/Saved/Atlas/Atlas_Tile2.png" -resize 1024 -s 2048
